@@ -1,0 +1,21 @@
+{
+  "name": "course2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "\u001b[A",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@mark-solovyev.github.com:mark-solovyev/course2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-rm": "^2.0.0",
+    "jquery": "^3.4.1"
+  }
+}
