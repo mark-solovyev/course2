@@ -4,6 +4,7 @@
   "description": "",
   "main": "\u001b[A",
   "scripts": {
+    "start": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "gulp"
   },
@@ -13,7 +14,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies" : {
+  "dependencies": {
     "jquery": "^3.4.1"
   },
   "devDependencies": {
@@ -22,6 +23,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-sass-glob": "^1.0.9",
     "node-sass": "^4.12.0",
-    "webpack": "^4.33.0"
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2"
   }
 }
