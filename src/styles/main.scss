@@ -1,8 +1,18 @@
 @import "normalize.scss";
+@import "blocks/container.scss";
 @import "blocks/header.scss";
 @import "blocks/menu.scss";
-@import "blocks/container.scss";
+@import "blocks/content.scss";
 @import "blocks/footer.scss";
+@font-face {
+    font-family: "Gagalin";
+    src: url("./../fonts/gagalin/Gagalin-Regular.woff2") format("woff2"),
+        url("./../fonts/gagalin/Gagalin-Regular.woff") format("woff")
+}
+@font-face {
+    font-family: "Lifehack";
+    src: url("./../fonts/lifehack/Lifehack-Medium.woff2") format("woff2")
+}
 html, body {
     height: 100%;
     box-sizing: border-box
@@ -10,10 +20,20 @@ html, body {
 .wrap {
     height: 100%
 }
-
-
-.content {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto
+.description {
+    &__we-make {
+        color: red;
+        font-family: "Gagalin";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 48px
+    }
+    &__burgers {
+        font-family: "Lifehack";
+        font-weight: 500;
+        font-style: normal;
+        font-size: 42px
+    }
 }
+
+

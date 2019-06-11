@@ -1,3 +1,7 @@
 .menu {
-    display: flex
+    border: dotted 1px green;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    flex: 1
 }
