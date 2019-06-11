@@ -14,7 +14,7 @@ gulp.task("copy:html", () => {
 });
 
 gulp.task("sass", () => {
-    return gulp.src("./src/styles/main.scss")
+    return gulp.src(["./src/styles/main.scss"])
     .pipe(sass().on("error", sass.logError))
     .pipe(gulp.dest("./dist/styles"));
 });

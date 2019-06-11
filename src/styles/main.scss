@@ -1,4 +1,19 @@
-@import "menu.scss";
-.firstP {
-    color: red
+@import "normalize.scss";
+@import "blocks/header.scss";
+@import "blocks/menu.scss";
+@import "blocks/container.scss";
+@import "blocks/footer.scss";
+html, body {
+    height: 100%;
+    box-sizing: border-box
+}
+.wrap {
+    height: 100%
+}
+
+
+.content {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto
 }
